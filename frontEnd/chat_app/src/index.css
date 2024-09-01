@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.category-btn{
+  font-weight: bold !important;
+  font-size: 13px;
+  /* text-transform: capitalize; */
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  cursor:pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+  padding: 7px 15px;
+  /* margin: 10px 0px; */
+  /* border-radius: 20px; */
+  transition: all 0.3s ease;
+}
+
+.category-btn:hover {
+  /* background-color: #FC1503 !important; */
+  color: #2d79f3 !important;
+}
+
+.search-bar{
+  border:none;
+  outline:none;
+  width:600px;
+}
+
+.add-bar{
+  border:none;
+  outline:none;
+  width: 170px;
+}
+
+/* 
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.message {
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 70%;
+}
+
+.incoming {
+  align-self: flex-start; 
+  background-color: #e0e0e0;
+}
+
+.outgoing {
+  align-self: flex-end; 
+  background-color: #0078d4;
+  color: white;
+} */
+
+
